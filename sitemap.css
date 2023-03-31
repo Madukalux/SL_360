@@ -1,0 +1,86 @@
+body {
+  background-image: url('Nine-Arches-Bridge.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.svg-sitemap{
+  display: flex;
+  align-items: center;
+  resize: both;
+  overflow: auto;
+}
+.home-polygon{
+  stroke: rgb(96,170,219); 
+  stroke-width: 3; 
+  stroke-dasharray: none; 
+  stroke-linecap: butt; 
+  stroke-dashoffset: 0; 
+  stroke-linejoin: round; 
+  stroke-miterlimit: 4; 
+  fill: rgb(211,232,123); 
+  fill-rule: nonzero; 
+  opacity: 1;
+}
+
+.home-polygon:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.15s;
+}
+
+
+
+.common-polygon{
+stroke: rgb(88, 81, 81); 
+stroke-width: 3; 
+stroke-linecap: butt; 
+stroke-dashoffset: 0; 
+stroke-linejoin: round; 
+stroke-miterlimit: 4; 
+fill: rgb(230, 126, 34); 
+fill-rule: nonzero; 
+opacity: 1; 
+}
+
+.common-polygon:hover{
+cursor: pointer;
+opacity: 0.5;
+transition: 0.15s;
+}
+
+.text-in-home-polygon{
+stroke: none; 
+stroke-width: 1; 
+stroke-dasharray: none; 
+stroke-linecap: butt; 
+stroke-dashoffset: 0; 
+stroke-linejoin: miter; 
+stroke-miterlimit: 4; 
+fill: black; 
+fill-rule: nonzero; 
+opacity: 1; 
+white-space: pre;
+}
+.text-in-polygons{
+stroke: none; 
+stroke-width: 1; 
+stroke-dasharray: none; 
+stroke-linecap: butt; 
+stroke-dashoffset: 0; 
+stroke-linejoin: miter; 
+stroke-miterlimit: 4; 
+fill: #ADD8E6; 
+fill-rule: nonzero; 
+opacity: 1; 
+white-space: pre;
+}
+
+.text-in-polygons:hover{
+display: inline-block;
+cursor: pointer;
+text-decoration-color: white ;
+transition: 0.15s;
+}
+
